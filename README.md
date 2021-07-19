@@ -60,13 +60,6 @@ ID : wannabe  / PW : 1234
 <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white"/>
 
 
-
-### # 프로젝트 ERD :  
-![BucketList_write](https://user-images.githubusercontent.com/82130077/126200254-33110d9d-aa9b-400f-95fd-3d59f9fdf6e5.jpg)
-
-
-
-
 ___  
 
 ## 프로젝트 담당 파트
