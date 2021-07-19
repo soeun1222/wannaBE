@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+        #list {
+            width: 960px;
+           	min-height: 500px;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        #list .title {
+            width: 330px;
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: 40px;
+            color: rgb(44, 44, 44);
+            padding: 0;
+            margin-bottom: 5px;
+
+        }
+
+        #list .sub_title {
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -1px;
+        }
+
+        #list .write_bt {
+            float: right;
+        }
+
+        #list .write_bt input {
+            width: 100px;
+            height: 30px;
+            border: none;
+            background-color: rgb(39, 83, 165);
+            border-radius: 0.2em;
+            color: white;
+            font-size: 15px;
+        }
+
+        #list div input:hover {
+            background-color: rgb(31, 95, 212);
+        }
+
+        #list table {
+            width: 860px;
+            margin-top: 50px;
+            border-spacing: 0;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        #list table tr td:nth-child(1) {
+            width: 150px;
+        }
+
+        #list table tr td:nth-child(2) {
+            width: 150px;
+            text-align: left;
+        }
+        #list table tr td:nth-child(3) {
+            width: 150px;
+        }
+
+        #list table tr td:nth-child(4) {
+            width: 150px;
+        }
+        #list table tr td:nth-child(5) {
+            width: 150px;
+        }
+        #list table tr td:nth-child(6) {
+            width: 150px;
+        }
+        #list table tr td:nth-child(7) {
+            width: 150px;
+        }
+
+        #list table tr td {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+        #list table tr td a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #list table tr td a:hover {
+            text-decoration: underline;
+        }
+
+        #list table tr:hover {
+            background-color: rgb(243, 243, 243);
+        }
+
+        #list table tr:first-child td {
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+
+            background-color: rgb(232, 237, 246);
+            border-top: 2px solid rgb(39, 83, 165);
+            border-bottom: 1px solid rgb(77, 103, 151);
+        }
+
+        #list table tr:last-child td {
+            border-bottom: 1px solid rgb(39, 83, 165);
+        }
+        
+
+        #list .page {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        #list .page a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        #list .page a:hover {
+            color: rgb(18, 92, 230);
+        }
+
+        #list .page .butt {
+            color: rgb(39, 83, 165);
+            font-size: 16px;
+            font-weight: 800;
+            padding: 0 10px;
+        }
+
+        #list .page .butt a {
+            text-decoration: none;
+            color: rgb(39, 83, 165);
+        }
+
+        #list .page .butt a:hover {
+            text-decoration: none;
+            color: rgb(18, 92, 230);
+        }
+        
+        
+        
+        #list2 {
+            width: 960px;
+           	min-height: 500px;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        #list2 .title {
+            width: 330px;
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: 40px;
+            color: rgb(44, 44, 44);
+            padding: 0;
+            margin-bottom: 5px;
+
+        }
+
+        #list2 .sub_title {
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -1px;
+        }
+
+        #list2 .write_bt {
+            float: right;
+        }
+
+        #list2 .write_bt input {
+            width: 100px;
+            height: 30px;
+            border: none;
+            background-color: rgb(39, 83, 165);
+            border-radius: 0.2em;
+            color: white;
+            font-size: 15px;
+        }
+
+        #list2 div input:hover {
+            background-color: rgb(31, 95, 212);
+        }
+
+        #list2 table {
+            width: 860px;
+            margin-top: 50px;
+            border-spacing: 0;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        #list2 table tr td:nth-child(1) {
+            width: 100px;
+        }
+
+        #list2 table tr td:nth-child(2) {
+            width: 600px;
+            text-align: left;
+            padding-left: 10px;
+
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        #list2 table tr td:nth-child(3) {
+            width: 170px;
+        }
+
+        #list2 table tr td {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+        #list2 table tr td a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #list2 table tr td a:hover {
+            text-decoration: underline;
+        }
+
+        #list2 table tr:hover {
+            background-color: rgb(243, 243, 243);
+        }
+
+        #list2 table tr:first-child td {
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+
+            background-color: rgb(232, 237, 246);
+            border-top: 2px solid rgb(39, 83, 165);
+            border-bottom: 1px solid rgb(77, 103, 151);
+        }
+
+        #list2 table tr:last-child td {
+            border-bottom: 1px solid rgb(39, 83, 165);
+        }
+        
+
+        #list2 .page {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        #list2 .page a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        #list2 .page a:hover {
+            color: rgb(18, 92, 230);
+        }
+
+        #list2 .page .butt {
+            color: rgb(39, 83, 165);
+            font-size: 16px;
+            font-weight: 800;
+            padding: 0 10px;
+        }
+
+        #list2 .page .butt a {
+            text-decoration: none;
+            color: rgb(39, 83, 165);
+        }
+
+        #list2 .page .butt a:hover {
+            text-decoration: none;
+            color: rgb(18, 92, 230);
+        }

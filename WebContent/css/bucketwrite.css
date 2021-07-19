@@ -1,0 +1,68 @@
+/*
+메인 블루 컬러 : rgb(31, 95, 212);
+포인트 팬톤 컬러(옐로우) : rgb(245, 223, 77);
+포인트 팬톤 컬러(그레이) : rgb(147, 149, 151);
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+        #write {
+            width: 960px;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #write .title {
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: 30px;
+            color: rgb(61, 61, 61);
+            padding: 0 0 5px 0;
+            margin-bottom: 10px;
+            border-bottom: 3px solid rgb(39, 83, 165);
+
+        }
+
+        #write table tr:first-child td {
+            width: 950px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #555;
+
+            font-weight: bold;
+        }
+
+        #write table tr:first-child td input {
+            width: 800px;
+            margin-left: 30px;
+            
+            border: none;
+        }
+
+
+        #write table tr:nth-child(2) td {
+            float: right;
+        }
+
+        
+        #write table tr:nth-child(2) td input {
+            margin-left: 2px;
+
+            width: 100px;
+            height: 30px;
+            border: none;
+            background-color: rgb(39, 83, 165);
+            border-radius: 0.2em;
+            color: white;
+            font-size: 15px;
+        }
+
+        #write table tr:nth-child(2) td input:hover {
+            background-color: rgb(31, 95, 212);
+ 
+        }
+        
+
+        
+        
+
+        /*------ non-face ------*/

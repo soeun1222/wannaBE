@@ -1,0 +1,330 @@
+        /*
+	        硫붿씤 釉붾（ 而щ윭 : rgb(31, 95, 212);
+	        �룷�씤�듃 �뙩�넠 而щ윭(�삉濡쒖슦) : rgb(245, 223, 77);
+	        �룷�씤�듃 �뙩�넠 而щ윭(洹몃젅�씠) : rgb(147, 149, 151);
+        */
+
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+		
+        .bh-font{
+            font-family: 'Black Han Sans', sans-serif;
+        }
+        .font-size_18 {
+            font-size: 18px;
+        }
+        .font-size_45 {
+            font-size: 45px;
+        }
+        .font-size_50 {
+            font-size: 50px;
+        }
+        .font-center {
+            text-align: center;
+        }
+        .font-color_main {
+            color: rgb(31, 95, 212);
+        }
+        .font-color_point_yellow {
+            color: rgb(245, 223, 77);;
+        }
+        /*------ header ------*/
+
+        header {
+            width: 1080px;
+            margin: 0 auto;
+        }
+        header p {
+            width: 80px;
+            height: 20px;
+            text-align: center;
+            line-height: 15px;
+            vertical-align: middle; 
+            display: inline-block;
+        }
+
+        header div {
+            display: inline-block;
+        }
+
+        header p a {
+            color: #333;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: -1px;
+            text-decoration: none;
+            padding: 5px 0;
+        }
+
+        header p a:hover {
+            color:  rgb(31, 95, 212);
+            font-weight: bolder;
+            transition: 0.3s;
+        }
+
+        header .main {
+            margin: 0;
+            padding: 0;
+        }
+
+        header .other {
+            float: right;
+        }
+        /* 諛붾뵒 */
+        body {
+            width: 1080px;
+            margin : 0 auto;
+            
+        }
+        div{
+            display: block;
+            clear: both;
+        }
+        #box{
+            /* border: 1px solid black; */
+            padding: 20px;
+            position: relative;
+        }
+        .group1{
+            margin: 16px 8px 0;
+            padding: 10px 25px 20px;
+            text-align: left;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            background: #fff;
+            min-height: 250px;
+            display: inline-block;
+            width: 43%;
+            border-radius: 10px;
+        }
+        .group2{
+            margin: 16px 8px 0;
+            padding: 10px 25px 20px;
+            text-align: left;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            background: #fff;
+            min-height: 400px;
+            display: inline-block;
+            width: 43%;
+            border-radius: 10px;
+        }
+        .group1 p{
+     	    font-family: 'Nanum Gothic', sans-serif;
+        	font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -1px;
+            padding-left: 10px;
+            font-weight: bold;
+            color: gray;
+        }
+        .group2 p{
+     	    font-family: 'Nanum Gothic', sans-serif;
+        	font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -1px;
+            padding-left: 10px;
+            font-weight: bold;
+            color: gray;
+        }
+        .group3{
+            margin: 16px 8px 0;
+            padding: 10px 25px 20px;
+            text-align: left;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            background: #fff;
+            min-height: 200px;
+            display: inline-block;
+            width: 43%;
+            border-radius: 10px;
+        }
+        .content{
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: 25px;
+            color: rgb(44, 44, 44);
+            padding-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .writetable{
+            font-family: 'Nanum Gothic', sans-serif;
+        	font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -1px;
+            padding-left: 10px;
+            font-weight: bold;
+            color: gray;
+        }
+        .hellobar{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 500;
+        	font-size: 16px;
+            color: rgb(44, 44, 44);
+        	background-color: rgb(243, 243, 243);
+        }
+        .content div{
+            background: wheat;
+        }
+        
+        /* 硫붾돱諛� */
+        #nav {
+            height: 50px;
+            border-top: 1.5px solid rgb(192, 192, 192);
+            border-bottom: 1px solid #666;
+            padding: 0 50px 0 50px;
+        }
+
+        .menu {
+            width: 900px;
+            margin: 0 auto;
+        }
+        .menu p {
+            width: 120px;
+            text-align: center;
+            display: inline-block;
+        }
+        ul p{
+            width: 120px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .menu p a {
+            font-weight: bold;
+            font-size: 15px;
+            color: #444;
+            text-decoration: none;
+        }
+        ul p a {
+            font-weight: bold;
+            font-size: 15px;
+            color: #444;
+            text-decoration: none;
+        }
+
+        .menu p a:hover {
+            font-size: 16px;
+            font-weight: bolder;
+            color:  rgb(31, 95, 212);
+            transition: 0.3s;
+        }
+        ul li p a:hover {
+            font-size: 16px;
+            font-weight: bolder;
+            color:  rgb(31, 95, 212);
+            transition: 0.3s;
+        }
+        ul, li {
+            list-style:none;
+            margin:0;
+            padding:0;
+        }
+        ul.myMenu {
+        }
+        ul.myMenu > li {
+            display:inline-block;
+            width:110px;
+            padding:0 10px;
+            /* background:rgb(118, 163, 248); */
+            /* border:1px solid rgb(118, 163, 248); */
+            position:relative;
+            margin-left: 50px;
+        }
+        ul.myMenu > li:hover {
+            /* background:#fff; */
+        }
+        ul.myMenu > li ul.submenu {
+            display:none;
+            position:absolute;
+            /* top:30px; */
+            /* left:20px; */
+        }
+        ul.myMenu > li:hover ul.submenu {
+            display:block;
+        }
+        ul.myMenu > li ul.submenu > li {
+            display:inline-block;
+            width:110px;
+            padding:0 10px;
+            background:rgb(245, 248, 255);
+            border:1px solid rgb(245, 248, 255);
+            border-radius: 13px;
+            /* text-align:center; */
+        }
+        ul.myMenu > li ul.submenu > li:hover {
+            background:#fff;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .menu{
+        	margin-left: 50px;
+        	width: auto;
+        }
+        
+        /*------ footer ------*/
+
+        footer {
+            width: 1080px;
+            margin-top : 20px;
+            background-color: rgb(243, 243, 243);
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #444;
+        }
+
+        footer p {
+            text-align: center;
+            font-size: 13px;
+            color: #666;
+            padding-bottom: 20px;
+        }
+
+        footer div {
+            padding: 5px 20px;
+            border-top: 2px solid #555;
+            border-bottom: 1px solid #333;
+        }
+
+        footer div span:nth-child(2) {
+            float: right;
+        }
+
+        footer div span a {
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: -1px;
+        }
+
+        footer div span a:hover {
+            color: rgb(31, 95, 212);
+        }
+
+        footer div span a span {
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        /*------ else ------*/
+        .td_content {
+        }
+        .spanhello{
+        	color: blue;
+        }
+        /*------button------*/
+        .submit{
+        	width: 70px;
+        	height: 25px;
+        	border: none;
+        	background-color: rgb(31, 95, 212);
+        	border-radius: 0.2em;
+        	color: white;
+        	font-size: 13px;
+        }
+        .submit:hover{
+            background-color: rgb(79, 128, 221) ;
+            transition: 0.3s;
+        }

@@ -1,0 +1,244 @@
+/*
+메인 블루 컬러 : rgb(31, 95, 212);
+포인트 팬톤 컬러(옐로우) : rgb(245, 223, 77);
+포인트 팬톤 컬러(그레이) : rgb(147, 149, 151);
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+        #show {
+            width: 960px;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #show .title {
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: 30px;
+            color: rgb(61, 61, 61);
+            padding: 0 0 5px 0;
+            margin-bottom: 10px;
+            border-bottom: 3px solid rgb(39, 83, 165);
+
+        }
+
+        #show table tr:first-child td {
+            width: 950px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            border-bottom: 1px solid #555;
+
+            font-weight: bold;
+            line-height: 22px;
+        }
+
+        #show table tr:first-child td .con_etc {
+            font-size: 12px;
+            font-weight: normal;
+            color: #888;
+
+            float: right;
+        }
+
+        #show table tr:first-child td .con_etc .name {
+            padding-right: 10px;
+            border-right: 1px solid #888;
+        }
+
+        #show table tr:first-child td .con_etc .date {
+            padding: 0 15px 0 10px;
+            border-right: 1px solid #888;
+
+        }
+
+        #show table tr:first-child td .con_etc .hit {
+            padding: 0 5px 0 10px;
+        }
+
+        #show table tr:nth-child(2) td {
+            width: 950px;
+            padding: 30px 10px 40px 10px;
+
+            color: #444;
+            font-size: 14px;
+            line-height: 22px;
+
+            border-bottom: 1px solid #555;
+        }
+
+
+        #show table tr:nth-child(3) td {
+            margin-top: 10px;
+            float: right;
+        }
+
+        
+        #show table tr:nth-child(3) td input {
+            margin-left: 2px;
+
+            width: 100px;
+            height: 30px;
+            border: none;
+            background-color: rgb(39, 83, 165);
+            border-radius: 0.2em;
+            color: white;
+            font-size: 15px;
+        }
+
+        #show table tr:nth-child(3) td input:hover {
+            background-color: rgb(31, 95, 212);
+ 
+        }
+
+        /*------ comment ------*/
+
+        #comment {
+            width: 960px;
+            margin: 0 auto;
+            margin-bottom: 80px;   
+        }
+
+        #comment form table {
+            border-spacing: 0;
+        }
+
+        #comment form table tr:first-child td:first-child {
+            width: 960px;
+            font-size: 18px;
+            font-weight: bolder;
+            color: rgb(39, 83, 165);
+
+            padding-bottom: 10px;
+        }
+
+        #comment form table tr:first-child td:nth-child(2) {
+            font-size: 13px;
+            color: #666;
+
+            float: right;
+        }
+
+        #comment form table tr:first-child td:nth-child(2) span {
+            color: rgb(39, 83, 165);
+            font-weight: bold;
+        }
+
+
+        #comment form table tr:nth-child(2) td {
+            width: 960px;
+            margin: 0;
+            padding: 15px 0px 15px 16px;
+
+            background-color: rgb(243, 243, 243);
+            border-top: 2px solid rgb(39, 83, 165);
+            border-spacing: 0;
+        }
+        
+
+        #comment form table tr:nth-child(2) td textarea {
+            width: 810px;
+            height: 35px;
+
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        #comment form table tr:nth-child(2) td input {
+            width: 80px;
+            height: 57px;
+            border-spacing: 0;
+
+            color: white;
+            background-color: rgb(39, 83, 165);
+            border-radius: 3px;
+            border: none;
+
+            margin: 0 0 0 -10px;
+            padding: 0;
+        }
+
+        #comment form table tr:nth-child(2) td input:hover {
+            background-color: rgb(31, 95, 212);
+        }
+
+        #comment #com_list tr td {
+            width: 970px;
+            border-top: 1px solid #666;
+
+            padding: 15px 10px;
+            margin: 0;
+        }
+
+        #comment #com_list tr td .com_title {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -1px;
+            color: rgb(31, 95, 212);
+
+            margin-bottom: 10px;
+        }
+
+        #comment #com_list tr td .com_con {
+            font-size: 14px;
+            letter-spacing: -1px;
+            color: #333
+        }
+
+        #comment #com_list tr:last-child td {
+            border-bottom: 2px solid rgb(39, 83, 165);
+        }
+
+        #comment #com_list tr td #com_bt {
+            border: none;
+            background-color: white;
+            color: rgb(80, 115, 179);
+
+            margin-top: 10px;
+        }
+
+        #comment #com_list tr td a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #comment #com_list tr td #com_com {
+            height: 50px;
+            margin-top: 5px;
+            padding: 15px;
+
+            background-color: rgb(243, 243, 243);
+        }
+
+        #comment #com_list tr td #com_com textarea {
+            width: 810px;
+            height: 25px;
+
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        #comment #com_list tr td #com_com input {
+            width: 70px;
+            height: 46px;
+            border-spacing: 0;
+
+            color: white;
+            background-color: rgb(39, 83, 165);
+            border-radius: 3px;
+            border: none;
+
+            float: right;
+        }
+
+        #comment #com_list tr td .com_con input {
+            border: none;
+            background-color: white;
+
+            color: rgb(39, 83, 165);
+            font-weight: bold;
+            text-decoration: underline;
+
+            float: right;
+            padding-right: 10px;
+        }

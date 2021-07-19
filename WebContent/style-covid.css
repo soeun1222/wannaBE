@@ -1,0 +1,165 @@
+.font-size_35{
+    font-size: 35px;
+}
+.font-size_30{
+    font-size: 30px;
+}
+.font-size_25{
+    font-size: 25px;
+}
+.font-size_20{
+    font-size: 20px;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.service{
+
+-webkit-text-size-adjust: none;
+color: #333;
+text-decoration: none;
+padding: 0 10px 0 10px;
+line-height: 58px;
+}
+.select{
+    border-bottom: rgb(31, 95, 212) solid;
+    padding: 11px 20px 11px 20px;
+}
+
+/* <!-- 메인뉴스 --> */
+#container{
+    width: 320px;
+    margin: 50px auto;
+}
+#main-news{
+    padding: 10px;
+}
+
+.main-image{
+    background-color: rgb(240, 240, 240);
+}
+.word{
+    font-size: 21px;
+    text-align: left;
+    margin: 0px 10px;
+}
+.word h4{
+    margin: 5px;
+}
+.words h4:hover{
+    text-decoration: underline;
+}
+.word h5{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px ;
+    line-height: 25px;
+     text-overflow:ellipsis; 
+    overflow:hidden; 
+    white-space:nowrap;
+}
+td{
+    font-size: 16px;
+    font-weight: bolder;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.covid-news-list {
+    margin-top: 50px;
+    width:900px;
+    /* border-bottom: 1px solid black; */
+    /* padding-bottom: 10px; */
+    table-layout:fixed;
+    
+}
+
+
+
+
+.list{
+    padding: 0px 30px;
+    margin: 50px;
+    text-overflow:ellipsis; 
+    overflow:hidden; 
+    white-space:nowrap;
+    line-height: 25px;
+    
+}
+.main-image:hover{
+
+    background-color: rgb(240, 240, 240);
+
+}
+
+.covid-news-list tr td a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+   
+
+}
+
+
+.list:hover {
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-weight: bold;
+}
+
+/* 서브 뉴스 */
+#sub{
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+#sub-news{
+    margin-top: 40px;
+    width:900px;
+    /* border-bottom: 1px solid black; */
+    border-top: 2px solid rgb(179, 175, 175);
+    table-layout:fixed;
+    text-overflow:ellipsis; 
+    overflow:hidden; 
+    white-space:nowrap;
+   
+}
+.sub-list{
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+.sub-list h3{
+    margin-bottom: 10px;
+}
+.sub-list h5{
+    text-align: left;
+    line-height: 25px;
+    width: 600px;
+    text-overflow:ellipsis; 
+    overflow:hidden; 
+    white-space:nowrap;
+}
+.sub-img{
+    margin: 0px 20px;
+}
+.news-name{
+    color: grey;
+    font-size: 12px;
+    border-left: 1px solid gray;
+    padding-left: 8px;
+}
+
+footer{
+    margin-top: 50px;
+}
