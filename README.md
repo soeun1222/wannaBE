@@ -3,6 +3,11 @@
 # [ wannaBE대면 ]
 
 국비 자바 수업 첫번째 프로젝트  
+>첫번째 프로젝트 **다운로드 및 실행**하기 
+Click [here](https://github.com/soeun1222/Team5_project01)  
+
+&nbsp;&nbsp;&nbsp; 위의 링크에 포함된 ppt의 설명대로 진행하여 실행 가능
+
 >두번째 프로젝트 보러가기 
 Click [here](https://www.naver.com)  
 ___
