@@ -9,7 +9,7 @@ Click [here](https://github.com/soeun1222/Team5_project01)
 &nbsp;&nbsp;&nbsp; 위의 링크에 포함된 ppt의 설명대로 진행하여 실행 가능
 
 >두번째 프로젝트 보러가기 
-Click [here](https://www.naver.com)  
+Click [here](https://github.com/soeun1222/DEhome)  
 ___
 
 
